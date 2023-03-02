@@ -60,7 +60,7 @@ element.addEventListener('click',(e)=>{
     songIndex=parseInt(e.target.id);
     e.target.classList.remove('fa-play');
     e.target.classList.add('fa-pause');
-    audioElement.src=`songs/${songIndex+1}.mp3`;
+    audioElement.src=`{songIndex+1}.mp3`;
     songTitle.innerText=songs[songIndex].songName;
     audioElement.currentTime=0;
     audioElement.play();
@@ -76,7 +76,7 @@ document.getElementById('masternext').addEventListener('click',()=>{
     else{
         songIndex+=1;
     }
-    audioElement.src=`${songIndex+1}.mp3`;
+    audioElement.src=`{songIndex+1}.mp3`;
     audioElement.currentTime=0;
     audioElement.play();
     masterPlay.classList.remove('fa-play');
@@ -91,7 +91,7 @@ document.getElementById('masterprevious').addEventListener('click',()=>{
     else{
         songIndex-=1;
     }
-    audioElement.src=`${songIndex+1}.mp3`;
+    audioElement.src=`{songIndex+1}.mp3`;
     // songTitle.innerText=songs[songIndex].songName;
     audioElement.currentTime=0;
     audioElement.play();
