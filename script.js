@@ -11,14 +11,14 @@ let gif=document.getElementById('gif');
 let songTitle=document.getElementById('songTitle');
 let songItem=Array.from(document.getElementsByClassName("songItem"));  
 let songs=[
-    {songName:"Chup Gaye Sare Nazare",filepath:"songs/1.mp3",coverPath:'covers/1.jpeg'},
-    {songName:"Tere Liye",filepath:"songs/2.mp3",coverPath:'covers/2.jpeg'},
-    {songName:"Ajab Si",filepath:"songs/3.mp3",coverPath:'covers/3.jpeg'},
-    {songName:"Bhula Denge Tum Ko Sanam",filepath:"songs/4.mp3",coverPath:'covers/4.jpeg'},
-    {songName:"Chanda Ki Doli Mein",filepath:"songs/5.mp3",coverPath:'covers/5.jpeg'},
-    {songName:"Dil Mere Tu Deewana Hai",filepath:"songs/6.mp3",coverPath:'covers/6.jpeg'},
-    {songName:"Dulhe-Ka-Sehra",filepath:"songs/7.mp3",coverPath:'covers/7.jpeg'},
-    {songName:"Hui annekh num",filepath:"8.mp3",coverPath:'covers/8.jpeg'}
+    {songName:"Chup Gaye Sare Nazare",filepath:"1.mp3",coverPath:'1.jpeg'},
+    {songName:"Tere Liye",filepath:"2.mp3",coverPath:'2.jpeg'},
+    {songName:"Ajab Si",filepath:"3.mp3",coverPath:'3.jpeg'},
+    {songName:"Bhula Denge Tum Ko Sanam",filepath:"4.mp3",coverPath:'4.jpeg'},
+    {songName:"Chanda Ki Doli Mein",filepath:"5.mp3",coverPath:'5.jpeg'},
+    {songName:"Dil Mere Tu Deewana Hai",filepath:"6.mp3",coverPath:'6.jpeg'},
+    {songName:"Dulhe-Ka-Sehra",filepath:"7.mp3",coverPath:'7.jpeg'},
+    {songName:"Hui annekh num",filepath:"8.mp3",coverPath:'8.jpeg'}
 ]
 songItem.forEach((element,i)=> {
     // console.log(element,i);
