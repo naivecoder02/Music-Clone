@@ -92,7 +92,6 @@ document.getElementById('masterprevious').addEventListener('click',()=>{
         songIndex-=1;
     }
     audioElement.src=`{songIndex+1}.mp3`;
-    // songTitle.innerText=songs[songIndex].songName;
     audioElement.currentTime=0;
     audioElement.play();
     masterPlay.classList.remove('fa-play');
